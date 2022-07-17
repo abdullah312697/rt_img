@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+html,
+body {
+    background-color: #011627;
+}
+
+.main_sec {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.header_sec {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header_sec>input {
+    color: #f19c00;
+    font-size: 80px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+}
+
+.middle_sec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.mid_Right {
+    width: 250px;
+    height: 400px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.mid_Right>img {
+    width: 100%;
+    height: 100%;
+}
+
+.mid_Main {
+    width: 550px;
+    height: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.mid_Main>img {
+    width: 100%;
+    height: 100%;
+}
+
+.mid_Left {
+    width: 250px;
+    height: 400px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.mid_Left>img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_sec {
+    display: flex;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.shere_fnd {
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.created_by>a {
+    color: #fff;
+    z-index: 1;
+}
+
+.popUplink {
+    transition: all 2s;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #45535ec7;
+    bottom: 51px;
+    left: 0;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+#closePopup {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 32px;
+    cursor: pointer;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.frmStl {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#enterName {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+#youLink {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.spen_desc {
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#copyLinktxt {
+    position: absolute;
+    right: 20px;
+    bottom: 42px;
+    color: #c96830;
+    background-color: #35363a4d;
+    width: 33px;
+    height: 30px;
+    padding: 5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+}
+
+#showSscopy {
+    position: absolute;
+    font-size: 12px;
+    bottom: 82px;
+    right: 24px;
+    color: #fff;
+    opacity: 0;
+    transition: 1.5s all;
+}
